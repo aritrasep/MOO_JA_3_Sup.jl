@@ -2,6 +2,8 @@
 
 Minor Testing
 
+Testing
+
 ## Julia sourcecode: ##
 
 1. [Experimental_Run.jl](https://github.com/aritrasep/MOO_JA_2_Sup.jl/tree/master/src/Experimental_Run.jl) - Script to run the whole experiment. The proper way to run the Experiments will be `julia -p 4 Experimental_Run.jl`. In this case, experiments related to MDLS, V1, V2 and V3 will run 4 instances in parallel. However, all experiments related to NSGA-II and V3 with 1, 2, 3 and 4 on the large random instances will be run serially.
